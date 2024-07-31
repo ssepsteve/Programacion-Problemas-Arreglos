@@ -25,8 +25,13 @@ Caso 2:
 Terminal:
 ![image](https://github.com/user-attachments/assets/ad4d2159-874a-4fbd-87cf-703b2087e8fb)
 
+Punto 3:
+![image](https://github.com/user-attachments/assets/7bee6e4f-f8a0-4e97-9b68-045bc745a92d)
 
-Caso 3:
+Terminal:
+![image](https://github.com/user-attachments/assets/77077004-5f0d-4e78-b5d0-b4f1f6be8760)
+
+
 
 
 ![image](https://github.com/user-attachments/assets/e3b9d12f-2c65-401c-bcaf-2e44cd4b84e3)
