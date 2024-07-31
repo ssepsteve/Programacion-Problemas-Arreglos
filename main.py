@@ -1,5 +1,16 @@
 #Punto 1 
-
+lista = []
+def promedio(lista):
+    suma = 0
+    try:
+        for i in lista:
+            suma += i
+            cantidad = len(lista)
+            prom = suma / cantidad
+            print(prom)
+    except:
+        print("Hay elementos que no son numeros")
+promedio(lista)
 
 #Punto 2
 def productoPuntoDosArreglos(Arreglo1:list,Arreglo2:list):
@@ -31,3 +42,27 @@ print(productoPuntoDosArreglos([1,2,3,4,5],[2,3,4,5,6]))
 
 
 #Punto 3
+tupla1 = (43, 15, 7, 8, 7, 34, 76,12)
+tupla2 = (5, 6, 2, "a", 9, 2, 5, 6)
+def productos_directos(arr1, arr2):
+    #define los 2 arreglos iniciales
+
+    if len(tupla1)  == len(tupla2): #confirma que tienen la cantidad de elementos
+
+        productos = []
+        for i in range(len(tupla1)): #recorre la tupla por indices
+                
+            if type(tupla2[i]) == int and type(tupla1[i]) == int: #confirma que ambos elementos sean enteros        
+                punto = tupla1[i] * tupla2[i] #multiplica por el elemento del mismo indice en la otra tupla
+                productos.append(punto)
+                
+            else: 
+                print("Asegurese de solo incluir enteros en los arreglos")
+                pass
+
+        print("El conjunto de los productos directos es", productos)
+
+    else:
+        print("los arreglos deben tener la misma cantidad de elementos")
+
+productos_directos(tupla1, tupla2)
