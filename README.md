@@ -1,6 +1,12 @@
 Punto 1 
 
 
+![image](https://github.com/user-attachments/assets/3a94af07-dfbe-4259-8064-eed6d6e1e84b)
+
+
+Terminal:
+![image](https://github.com/user-attachments/assets/6df026ed-96dd-437b-b517-127784d704c8)
+
 Punto 2
 
 
