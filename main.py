@@ -3,6 +3,7 @@
 
 #Punto 2
 def productoPuntoDosArreglos(Arreglo1:list,Arreglo2:list):
+    print(f"Los Arreglos son: {Arreglo1} y {Arreglo2}")
     productoPunto = 0
     if len(Arreglo1) == len(Arreglo2):
         Arreglo1Tipos = []
