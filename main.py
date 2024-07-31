@@ -1,16 +1,17 @@
 #Punto 1 
-lista = []
 def promedio(lista):
     suma = 0
     try:
         for i in lista:
             suma += i
-            cantidad = len(lista)
-            prom = suma / cantidad
-            print(prom)
+        cantidad = len(lista)
+        prom = suma / cantidad
+            
     except:
         print("Hay elementos que no son numeros")
-promedio(lista)
+    else:
+        return prom
+print(f"el promedio de la lista es: {promedio([1,2,3,4,5,6,7])}")
 
 #Punto 2
 def productoPuntoDosArreglos(Arreglo1:list,Arreglo2:list):
@@ -57,7 +58,7 @@ def productos_directos(arr1, arr2):
                 productos.append(punto)
                 
             else: 
-                print("Asegurese de solo incluir enteros en los arreglos")
+                print(f"Se encuentro un valor no entero, por lo tanto se salto la columna {i+1}")
                 pass
 
         print("El conjunto de los productos directos es", productos)
