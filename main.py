@@ -22,7 +22,8 @@ def productoPuntoDosArreglos(Arreglo1:list,Arreglo2:list):
         Arreglo2Tipos = []
         for i in range(0,len(Arreglo1)):
             Arreglo1Tipos.append(str(type(Arreglo1[i])))
-            Arreglo2Tipos.append(str(type(Arreglo1[i])))
+            Arreglo2Tipos.append(str(type(Arreglo2[i])))
+        
         if str(type(True)) in Arreglo1Tipos or str(type(True)) in Arreglo2Tipos:
             print("Hay valores booleanos en el arreglo")
             productoPunto = None
@@ -37,7 +38,9 @@ def productoPuntoDosArreglos(Arreglo1:list,Arreglo2:list):
         productoPunto = None
     return productoPunto
 
-print(productoPuntoDosArreglos([1,2,3,4,5],[2,3,4,5,6]))
+arreglo1 = [1,2,3,4,False]
+arreglo2 = [2,3,4,5,6]
+print(f"El producto punto de los arreglos:{arreglo1} y {arreglo2} es {productoPuntoDosArreglos(arreglo1,arreglo2)}")
 
 
 
@@ -66,4 +69,4 @@ def productos_directos(arr1, arr2):
     else:
         print("los arreglos deben tener la misma cantidad de elementos")
 
-productos_directos(tupla1, tupla2)
+#productos_directos(tupla1, tupla2)
