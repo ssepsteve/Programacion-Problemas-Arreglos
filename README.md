@@ -40,5 +40,3 @@ Terminal:
 Terminal:
 ![image](https://github.com/user-attachments/assets/e373dffe-0cfd-42aa-bf06-4d538f52b767)
 
-
-Punto 3
